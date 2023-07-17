@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Cabin:wght@500&display=swap");
+
+
+.nav-title {
+  color: #ff0266;
+  font-family: "Belanosima", sans-serif;
+  font-family: "Cabin", sans-serif;
+}
+#basic-nav-dropdown {
+  color: #ff0266;
+  font-family: "Belanosima", sans-serif;
+  font-family: "Cabin", sans-serif;
+}
