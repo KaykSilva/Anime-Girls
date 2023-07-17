@@ -1,15 +1,39 @@
 .container-cards {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
 }
 
 .cards {
-  position: relative;
+  display: flex;
   margin: 50px auto;
   top: 150px;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-color: black;
+}
+
+
+.cards-info {
+  position: relative;
+  top: 40px;
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.cards-info img {
+  position: relative;
+  width: 200px;
+  max-height: 290px;
+  max-width: 300px;
+  border-radius: 10px;
+}
+.cards-info span {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  color: #ff0266;
+  font-family: "Belanosima", sans-serif;
+  font-family: "Cabin", sans-serif;
 }
