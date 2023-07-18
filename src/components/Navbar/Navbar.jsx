@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 
 function Navbarc() {
@@ -15,7 +16,8 @@ function Navbarc() {
             <Nav.Link className='nav-title' href="#home">Home</Nav.Link>
             <Nav.Link className='nav-title' href="#link">Link</Nav.Link>
             <NavDropdown title="APIS" id="basic-nav-dropdown">
-              <NavDropdown.Item href="Waifupics">WaifuPics</NavDropdown.Item>
+              <NavDropdown.Item to="Waifupics">WaifuPics</NavDropdown.Item>
+              <Link to="waifupics">pics</Link>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>

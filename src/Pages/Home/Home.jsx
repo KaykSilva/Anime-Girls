@@ -10,6 +10,7 @@ function Home() {
     <div className="container-menu">
     <Navbarc/>
      <h1>💮Várias APis em um só lugar💮</h1>
+     
    <InfoCards/>
     </div>
   );
