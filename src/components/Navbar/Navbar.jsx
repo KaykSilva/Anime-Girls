@@ -15,7 +15,7 @@ function Navbarc() {
             <Nav.Link className='nav-title' href="#home">Home</Nav.Link>
             <Nav.Link className='nav-title' href="#link">Link</Nav.Link>
             <NavDropdown title="APIS" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="Waifupics">WaifuPics</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>
