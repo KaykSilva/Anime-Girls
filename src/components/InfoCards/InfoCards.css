@@ -18,6 +18,13 @@
   margin: 100px auto;
   border-radius: 10px;
 }
+.cards-info span {
+  display: flex;
+  padding: 9px;
+  justify-content: center;
+  color: #ff0266;
+
+}
 
 .cards-info img {
   width: 200px;

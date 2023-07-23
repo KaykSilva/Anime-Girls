@@ -13,11 +13,13 @@ function Navbarc() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className='nav-title' href="#home">Home</Nav.Link>
-            <Nav.Link className='nav-title' href="#link">Link</Nav.Link>
+
+            <Link className='nav-title' to="/">Home</Link>
+            <Link className='nav-title' to="#link">GitHub</Link>
             <NavDropdown title="APIS" id="basic-nav-dropdown">
-              <NavDropdown.Item to="Waifupics">WaifuPics</NavDropdown.Item>
-              <Link to="waifupics">pics</Link>
+
+             
+              <Link className='drop' to="waifupics">WaifuPics</Link>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>

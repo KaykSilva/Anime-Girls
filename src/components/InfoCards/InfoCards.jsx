@@ -1,5 +1,6 @@
 import React from "react";
 import "./InfoCards.css";
+
 export const InfoCards = () => {
   return (
     <div className="Container-cards">
@@ -7,7 +8,7 @@ export const InfoCards = () => {
         <div className="cards-info">
        
           <img src="https://i.waifu.pics/Owt_E3B.jpg" />
-          <span>Em breve</span>
+          <span>WaifuPics</span>
         </div>
 
         <div className="cards-info">
